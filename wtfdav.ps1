@@ -47,7 +47,7 @@ param(
 	Write-Host ""
 	Write-Host "Note: This is a read-only analysis tool. No changes will be made to your system." -ForegroundColor DarkGray
 	Write-Host ""
-	Write-Host "WebDAV? More like wtfDAV amirite? :)" -ForegroundColor DarkCyan
+	Write-Host "                      WebDAV? More like wtfDAV amirite? :)                       " -ForegroundColor DarkCyan
 	Write-Host "=================================================================================" -ForegroundColor Cyan
 	Write-Host ""
 
