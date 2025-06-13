@@ -11,7 +11,7 @@ Relevant for **CVE-2025-33053** WebDAV vulnerability response, especially if you
 ## Quick Start
 
 ```powershell
-# Run as Administrator (replace YOUR_USERNAME)
+# Run as Administrator
 iwr -useb https://raw.githubusercontent.com/adam-fff/wtfdav/main/wtfdav.ps1 | iex
 ```
 
