@@ -53,9 +53,9 @@ param(
 
     # Display system information
     Write-Host "System Information:" -ForegroundColor Cyan
-    Write-Host "  • Computer Name: $env:COMPUTERNAME" -ForegroundColor Gray
-    Write-Host "  • Windows Version: $((Get-CimInstance Win32_OperatingSystem).Caption)" -ForegroundColor Gray
-    Write-Host "  • PowerShell Version: $($PSVersionTable.PSVersion)" -ForegroundColor Gray
+    Write-Host "  Computer Name: $env:COMPUTERNAME" -ForegroundColor Gray
+    Write-Host "  Windows Version: $((Get-CimInstance Win32_OperatingSystem).Caption)" -ForegroundColor Gray
+    Write-Host "  PowerShell Version: $($PSVersionTable.PSVersion)" -ForegroundColor Gray
     Write-Host ""
     
     # User input y/n
