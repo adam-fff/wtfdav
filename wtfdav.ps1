@@ -33,17 +33,17 @@ param(
 	Write-Host "This script checks whether your Windows WebDAV client service is running" -ForegroundColor White
 	Write-Host "and performs a forensic analysis to determine:" -ForegroundColor White
 	Write-Host ""
-	Write-Host "  • When the service started" -ForegroundColor Gray
-	Write-Host "  • What process tree initiated it" -ForegroundColor Gray
-	Write-Host "  • Related system events around the start time" -ForegroundColor Gray
-	Write-Host "  • Possible triggers (Office, licensing, network changes, etc.)" -ForegroundColor Gray
+	Write-Host " ? When the service started" -ForegroundColor Gray
+	Write-Host " ? What process tree initiated it" -ForegroundColor Gray
+	Write-Host " ? Related system events around the start time" -ForegroundColor Gray
+	Write-Host " ? Possible triggers (Office, licensing, network changes, etc.)" -ForegroundColor Gray
 	Write-Host ""
 	Write-Host "This analysis helps identify why WebClient started, which is particularly" -ForegroundColor White
 	Write-Host "relevant given the recent CVE-2025-33053 WebDAV vulnerability." -ForegroundColor Yellow
 	Write-Host ""
 	Write-Host "Event Search Window:" -ForegroundColor Cyan
-	Write-Host "  • 2 minutes before service start" -ForegroundColor Gray
-	Write-Host "  • 1 minute after service start" -ForegroundColor Gray
+	Write-Host "  2 minutes before service start" -ForegroundColor Gray
+	Write-Host "  1 minute after service start" -ForegroundColor Gray
 	Write-Host ""
 	Write-Host "Note: This is a read-only analysis tool. No changes will be made to your system." -ForegroundColor DarkGray
 	Write-Host ""
